@@ -32,16 +32,21 @@ it makes sense in my head but I am finding it difficult to write it down in "mac
 ### 2. Add grid items
 
 - Grade: 2
-- Explanation: I feel that I was quite close to cracking this one (I hope), but I think there are some parts missing 
-in the code that I didn't think of.
+- Explanation: I feel that I was quite close to cracking this one (I hope), but I think there are some parts in the code that
+are missing.
 
 ### 3. Create file name string in CamelCase
 
-- Grade:
-- Explanation:
+- Grade: 2
+- Explanation: This is the one that I probably understood the most and had some sort of solution layed out for each step, 
+but I saved it for the last and ran out of time in the end.
 
 ### 4. Create pattern
 
-- Grade: between 1 and 2
-- Explanation: I'm not sure I used the right method to answer the question, and as was the case with previous answer I feel
-that I get the logic behind it but cannot really write it down in a correct way.
+- Grade: 1
+- Explanation: This is the one I understood the least and althohg we did a similar excercise using strings some time ago,
+I wasn't sure the same solution could be applied to numbers - but it was the only solution I could think of.
+
+Note: sorry for the messy and unfinished code, I tried to allocate the same-ish amount of time to each question
+so I would have a fair go at each of them, but I coudln't finish any of them, so perhaps it would have been a better strategy
+to focus on one or two questions instead. 

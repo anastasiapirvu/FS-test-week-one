@@ -19,7 +19,7 @@ function isPalindrome(num) {
 // condition if negative or single
 // return 
 
-// let numbers = "";
+// let numbers = 0;
 // let result = numbers.toString();
 // for (let n of numbers) {
 
@@ -29,7 +29,7 @@ function isPalindrome(num) {
 //         return false; 
 // }
 //     return result;
-}
+//}
 //Test cases:
 // console.log(isPalindrome(12321)); // true
 // console.log(isPalindrome(-12321)); // false
@@ -54,11 +54,11 @@ function addGridItems(grid) {
 
 // let newGrid = [];
 // for (let n of numbers) {
-//     addedElems += numbers[n].push(); //doesn't work 
-//     newGrid = addedElems // there should be some extra code here but not sure what
+//     newGrid += grid.push(numbers[n]); //doesn't work 
+//     addGridItems = newGrid // should be a bunch of extra code here but don't know what
 // }
-// console.log(newGrid);
-}
+// console.log(addGridItems);
+//}
 
 //Examples:
 // const y = [[[1], [2]]];
@@ -82,13 +82,36 @@ the extensions below:
 - image: .png
 - JSON: .json
 
-Examples:
-console.log(createFileName("Sofia Engineering Resume", "PDF")); // "sofia_engineering_resume.pdf"
-console.log(createFileName("Sofia Profile Photo", "image")); // "sofia_profile_photo.png"
-console.log(createFileName("Data from Pokemon API", "JSON")); // "data_from_pokemon_api.json"
+
 ------------------*/
 
-function createFileName() {
+function createFileName(str, type) {
+    // new string
+    // specify the extention files
+    //to lowercase
+    // to underscore
+    // what it returns
+
+//     let newFile = "";
+//     newFile = str.toLowerCase();
+
+//     for (let i in type){
+//         if (typeof[i] === "PDF" {
+//         return type(pdf);
+
+//     } if (typeof[i] === "image" {
+//         return type(png);
+
+//     }  if (typeof[i] === "JSON" {
+//         return type(json);
+//     }}   
+//     return (createFileName);    
+// } 
+
+// Examples:
+// console.log(createFileName("Sofia Engineering Resume", "PDF")); // "sofia_engineering_resume.pdf"
+// console.log(createFileName("Sofia Profile Photo", "image")); // "sofia_profile_photo.png"
+// console.log(createFileName("Data from Pokemon API", "JSON")); // "data_from_pokemon_api.json"
 
 /*------------------
 4) Print the following pattern
