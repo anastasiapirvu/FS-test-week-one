@@ -16,26 +16,26 @@ function isPalindrome(num) {
 // initialise  
 // convert number to string
 // loop through numbers
-// condition if negative or single (how?)
+// condition if negative or single
 // return 
 
-let numbers = "";
-let result = numbers.toString();
-for (let n of numbers) {
+// let numbers = "";
+// let result = numbers.toString();
+// for (let n of numbers) {
 
-    if (n !== n.lenght-1)
-        return false;
-    if (n === -n) 
-        return false; 
-}
-    return result;
+//     if (n !== n.lenght-1) 
+//         return false;
+//     if (n === -n) 
+//         return false; 
+// }
+//     return result;
 }
 //Test cases:
-console.log(isPalindrome(12321)); // true
-console.log(isPalindrome(-12321)); // false
-console.log(isPalindrome(1)); // true
-console.log(isPalindrome(84146)); // false
-console.log(isPalindrome(12)); // false
+// console.log(isPalindrome(12321)); // true
+// console.log(isPalindrome(-12321)); // false
+// console.log(isPalindrome(1)); // true
+// console.log(isPalindrome(84146)); // false
+// console.log(isPalindrome(12)); // false
 
 /*------------------
 2)
@@ -74,7 +74,7 @@ console.log(createFileName("Sofia Profile Photo", "image")); // "sofia_profile_p
 console.log(createFileName("Data from Pokemon API", "JSON")); // "data_from_pokemon_api.json"
 ------------------*/
 
-function createFileName() {}
+function createFileName() {
 
 /*------------------
 4) Print the following pattern
@@ -87,3 +87,14 @@ function createFileName() {}
 Hints:
 - Use a loop within a loop.
 ------------------*/
+// loop through the numbers (5 times ?)
+// decrement each new number by 3 (last one by 2)
+
+let num = "";
+for (let n = 0; n < num.lenght; n -=3){
+    for (o = 0; k < num[n].lenght; o -=3){
+        for (p = 0; p < num[n][o].lenght; p -=3){
+            for (q = 0; q < num[n][o][p].lenght; q -=3){
+                for (r = 0; r < num[n][o][p][q].lenght; r -=2){
+console.log(num[n][o][p][q][r])
+}}}}}

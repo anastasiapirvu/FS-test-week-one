@@ -25,8 +25,9 @@ Give yourself a grade for each question. Explain why you gave yourself that grad
 
 ### 1. Palindrome
 
-- Grade:
-- Explanation:
+- Grade: 2
+- Explanation: I understand the general logic behind the excercise and when I think about it, 
+it makes sense in my head but I am finding it difficult to write it down in "machine" language.
 
 ### 2. Add grid items
 
@@ -40,5 +41,6 @@ Give yourself a grade for each question. Explain why you gave yourself that grad
 
 ### 4. Create pattern
 
-- Grade:
-- Explanation:
+- Grade: between 1 and 2
+- Explanation: I'm not sure I used the right method to answer the question, and as in previous answers I feel
+that I get the logic behind it but cannot really write it down in a correct way.
