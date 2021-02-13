@@ -49,4 +49,4 @@ I wasn't sure the same solution could be applied to numbers - but it was the onl
 
 Note: sorry for the messy and unfinished code, I tried to allocate the same-ish amount of time to each question
 so I would have a fair go at each of them, but I coudln't finish any of them, so perhaps it would have been a better strategy
-to focus on one or two questions instead. 
+to focus on one or two questions instead.
