@@ -9,15 +9,33 @@ Note:
 - All negative numbers should return false.
 - Single numbers should return true.
 
-Test cases:
+------------------*/
+
+function isPalindrome(num) {
+
+// initialise  
+// convert number to string
+// loop through numbers
+// condition if negative or single (how?)
+// return 
+
+let numbers = "";
+let result = numbers.toString();
+for (let n of numbers) {
+
+    if (n !== n.lenght-1)
+        return false;
+    if (n === -n) 
+        return false; 
+}
+    return result;
+}
+//Test cases:
 console.log(isPalindrome(12321)); // true
 console.log(isPalindrome(-12321)); // false
 console.log(isPalindrome(1)); // true
 console.log(isPalindrome(84146)); // false
 console.log(isPalindrome(12)); // false
-------------------*/
-
-function isPalindrome(num) {}
 
 /*------------------
 2)
