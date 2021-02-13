@@ -31,8 +31,9 @@ it makes sense in my head but I am finding it difficult to write it down in "mac
 
 ### 2. Add grid items
 
-- Grade:
-- Explanation:
+- Grade: 2
+- Explanation: I feel that I was quite close to cracking this one (I hope), but I think there are some parts missing 
+in the code that I didn't think of.
 
 ### 3. Create file name string in CamelCase
 
@@ -42,5 +43,5 @@ it makes sense in my head but I am finding it difficult to write it down in "mac
 ### 4. Create pattern
 
 - Grade: between 1 and 2
-- Explanation: I'm not sure I used the right method to answer the question, and as in previous answers I feel
+- Explanation: I'm not sure I used the right method to answer the question, and as was the case with previous answer I feel
 that I get the logic behind it but cannot really write it down in a correct way.

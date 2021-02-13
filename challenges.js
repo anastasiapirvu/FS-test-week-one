@@ -43,15 +43,29 @@ Create a function that takes a grid
 as an argument and adds all the numbers
 in that grid together.
 
-Examples:
-const y = [[[1], [2]]];
-console.log(addGridItems(y)); // 3
 
-const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
-console.log(addGridItems(x)); // 50
 ------------------*/
 
-function addGridItems(grid) {}
+function addGridItems(grid) {
+    // initialise
+    // loop through elements
+    // add each element using push method
+    // assign the newly added elements to the newGrid array 
+
+// let newGrid = [];
+// for (let n of numbers) {
+//     addedElems += numbers[n].push(); //doesn't work 
+//     newGrid = addedElems // there should be some extra code here but not sure what
+// }
+// console.log(newGrid);
+}
+
+//Examples:
+// const y = [[[1], [2]]];
+// console.log(addGridItems(y)); // 3
+
+// const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
+// console.log(addGridItems(x)); // 50
 
 /*------------------
 3)
@@ -88,13 +102,13 @@ Hints:
 - Use a loop within a loop.
 ------------------*/
 // loop through the numbers (5 times ?)
-// decrement each new number by 3 (last one by 2)
+// decrement each new number by 3 (last one by 2?)
 
-let num = "";
-for (let n = 0; n < num.lenght; n -=3){
-    for (o = 0; k < num[n].lenght; o -=3){
-        for (p = 0; p < num[n][o].lenght; p -=3){
-            for (q = 0; q < num[n][o][p].lenght; q -=3){
-                for (r = 0; r < num[n][o][p][q].lenght; r -=2){
-console.log(num[n][o][p][q][r])
-}}}}}
+// let num = "";
+// for (let n = 0; n < num.lenght; n -=3){
+//     for (o = 0; k < num[n].lenght; o -=3){
+//         for (p = 0; p < num[n][o].lenght; p -=3){
+//             for (q = 0; q < num[n][o][p].lenght; q -=3){
+//                 for (r = 0; r < num[n][o][p][q].lenght; r -=2){
+// console.log(num[n][o][p][q][r])
+// }}}}}
