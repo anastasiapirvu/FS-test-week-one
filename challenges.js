@@ -11,26 +11,20 @@ Note:
 
 ------------------*/
 
-function isPalindrome(num) {
+// function isPalindrome(num) {
 
-// initialise  
-// convert number to string
-// loop through numbers
-// condition if negative or single
-// return 
+// // initialise  
+// // convert number to string
+// // return true or false
 
-// let numbers = 0;
-// let result = numbers.toString();
-// for (let n of numbers) {
+// let numbers = num.toString();
 
-//     if (n !== n.lenght-1) 
-//         return false;
-//     if (n === -n) 
-//         return false; 
-// }
-//     return result;
-//}
-//Test cases:
+// if (numbers === numbers.split("").reverse().join("")) {
+//         return true; 
+// } else {
+//     return false;
+// }}
+// //Test cases:
 // console.log(isPalindrome(12321)); // true
 // console.log(isPalindrome(-12321)); // false
 // console.log(isPalindrome(1)); // true
@@ -49,23 +43,25 @@ in that grid together.
 function addGridItems(grid) {
     // initialise
     // loop through elements
-    // add each element using push method
-    // assign the newly added elements to the newGrid array 
+    // add each element 
 
-// let newGrid = [];
-// for (let n of numbers) {
-//     newGrid += grid.push(numbers[n]); //doesn't work 
-//     addGridItems = newGrid // should be a bunch of extra code here but don't know what
-// }
-// console.log(addGridItems);
-//}
+    let sum = 0; 
+    for (let elem1 in grid[0]);
+        for (let elem2 in grid[1]);
+            for (let elem3 in grid[2]);
+         sum += elem3;  
+     return sum;     
+
+
+console.log(addGridItems);
+}
 
 //Examples:
-// const y = [[[1], [2]]];
-// console.log(addGridItems(y)); // 3
+const y = [[[1], [2]]];
+console.log(addGridItems(y)); // 3
 
-// const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
-// console.log(addGridItems(x)); // 50
+const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
+console.log(addGridItems(x)); // 50
 
 /*------------------
 3)
@@ -85,7 +81,7 @@ the extensions below:
 
 ------------------*/
 
-function createFileName(str, type) {
+// function createFileName(str, type) {
     // new string
     // specify the extention files
     //to lowercase
