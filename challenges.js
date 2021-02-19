@@ -40,28 +40,28 @@ in that grid together.
 
 ------------------*/
 
-function addGridItems(grid) {
-    // initialise
-    // loop through elements
-    // add each element 
+// function addGridItems(grid) {
+//     // initialise
+//     // loop through elements
+//     // add each element 
 
-    let sum = 0; 
-    for (let elem1 in grid[0]);
-        for (let elem2 in grid[1]);
-            for (let elem3 in grid[2]);
-         sum += elem3;  
-     return sum;     
+//     let sum = 0; 
+//     for (let elem1 in grid[0]);
+//         for (let elem2 in grid[1]);
+//             for (let elem3 in grid[2]);
+//          sum += elem3;  
+//      return sum;     
 
 
-console.log(addGridItems);
-}
+// console.log(addGridItems);
+// }
 
-//Examples:
-const y = [[[1], [2]]];
-console.log(addGridItems(y)); // 3
+// //Examples:
+// const y = [[[1], [2]]];
+// console.log(addGridItems(y)); // 3
 
-const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
-console.log(addGridItems(x)); // 50
+// const x = [[[1, 0, -3], [2, 4], [3]], [[4, 4, 3], [5, -3, -1], [6, 10]], [[7, -5, -5], [8, 0], [9, 1]]];
+// console.log(addGridItems(x)); // 50
 
 /*------------------
 3)
